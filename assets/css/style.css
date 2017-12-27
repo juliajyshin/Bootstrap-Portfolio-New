@@ -16,11 +16,15 @@ html {
     font-size: 34px;
 }
 
-/* ...about me area... */
-.page-header {
+li {
+    font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 34px;
 }
+
+/* .........about me......... */
+/* .........about me......... */
+/* .........about me......... */
+
 
 .about-me-content {
     width: 100%;
@@ -45,6 +49,7 @@ html {
     margin-top: 33px;
     padding: 30px;
     overflow: auto;
+    float: left;
 }
 
 .connect-header {
@@ -55,10 +60,77 @@ html {
 
 /* ...footer... */
 .footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-top: 30px;
+    padding-top: 20px;
     height: 60px;
     background-color: #fff;
     bottom: 0;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .........portfolio......... */
+/* .........portfolio......... */
+/* .........portfolio......... */
+
+.portfolio-area {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.port-imgs {
+    width: 220px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.images-area {
+    text-align: center;
+}
+
+.all-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+
+/* .........contact......... */
+/* .........contact......... */
+/* .........contact......... */
+
+.contact-form {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#name_input,
+#mail_input,
+#msg {
+    width: 95%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#msg {
+    height: 200px;
+    border-color: #bfbfbf;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit-btn {
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 5px 30px;
 }
